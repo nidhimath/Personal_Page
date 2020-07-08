@@ -1,0 +1,74 @@
+.btn {
+	background: rgba(254, 241, 96, 1);
+	margin-top: 30px;
+	padding: 20px;
+	border: 3px solid rgba(44, 130, 201, 1);
+	transition: 0.4s;
+	border-radius: 10px;
+	color: rgba(44, 130, 201, 1);
+	margin-right: 10px;
+	text-decoration: none;
+
+
+}
+
+.btn:hover {
+	background: rgba(44, 130, 201, 1);
+	border: 3px solid rgba(254, 241, 96, 1);
+	color: rgba(254, 241, 96, 1);
+	
+}
+
+
+.link {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+@keyframes backcolor {
+	from {
+		background: rgba(214, 69, 65, 1);
+	}
+
+	25% {
+		background: rgba(210, 77, 87, 1);
+	}
+
+	50% {
+		background: rgba(241, 130, 141,1);
+	}
+
+	75% {
+		background: rgba(224, 130, 131, 1);
+	}
+
+	to {
+		background: rgba(241, 169, 160, 1);
+	}
+}
+
+
+.animate {
+	animation: 3s infinite alternate backcolor;
+}
+
+
+body {
+	animation-name: backcolor;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+
+
